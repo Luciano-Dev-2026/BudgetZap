@@ -1,0 +1,37 @@
+body { font-family: sans-serif; background: #f0f2f5; padding: 15px; }
+.container { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+h1 { color: #1e3799; font-size: 1.4rem; text-align: center; }
+
+.item-servico {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.item-servico input[type="checkbox"] { width: 22px; height: 22px; }
+
+.total-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: #1e3799;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn-enviar {
+    width: 100%;
+    background: #25D366;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+}

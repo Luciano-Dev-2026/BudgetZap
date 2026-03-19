@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento Rápido</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>João Técnico - Ar Condicionado</h1>
+            <p>Selecione os serviços desejados:</p>
+        </header>
+
+        <form id="orcamento-form">
+            <div class="servicos">
+                </div>
+
+            <div class="total-box">
+                <span>Total Estimado:</span>
+                <span id="preco-total">R$ 0,00</span>
+            </div>
+
+            <button type="button" onclick="enviarOrcamento()" class="btn-enviar">
+                Confirmar e Enviar via WhatsApp
+            </button>
+        </form>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
